@@ -1,16 +1,13 @@
 import React from 'react'
-<<<<<<< HEAD
 import { Tarjeta } from './components/Tarjeta';
 import "./style.css";
-=======
 import Footer from './components/Footer';
 import { Navbar } from './components/Navbar';
->>>>>>> c57b3a85238129fe49473af265646741ad61f7a4
 
 const App = () => {
   return (
     <>
-<<<<<<< HEAD
+    <Navbar />
     <section className='container'>
       <Tarjeta title1='Capitana'  src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/capitana-marvel-poster-1551691489.jpg?crop=1xw:1xh;center,top&resize=480:*"/>
       <Tarjeta title1='Vengadores' src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/vengadores-endgame-orden-peli-culas-marvel-1556096718.jpg?crop=1xw:1xh;center,top&resize=480:*"/>
@@ -19,10 +16,7 @@ const App = () => {
       <Tarjeta title1='Spiderman' src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/spiderman-homecoming-poster-1551691492.jpg?crop=1xw:1xh;center,top&resize=480:*"/>
       <Tarjeta title1='Thor 3' src="https://es.web.img2.acsta.net/pictures/17/08/25/09/36/103601.jpg"/>
     </section>
-=======
-      <Navbar />
       <Footer/>
->>>>>>> c57b3a85238129fe49473af265646741ad61f7a4
     </>
 
   
