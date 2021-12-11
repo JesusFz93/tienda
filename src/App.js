@@ -8,7 +8,7 @@ const App = () => {
   return (
     <>
     <Navbar />
-    <section className='container'>
+    <section className='container mt-5'>
       <Tarjeta title1='Capitana Marvel'  src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/capitana-marvel-poster-1551691489.jpg?crop=1xw:1xh;center,top&resize=480:*"/>
       <Tarjeta title1='Vengadores: End Game' src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/vengadores-endgame-orden-peli-culas-marvel-1556096718.jpg?crop=1xw:1xh;center,top&resize=480:*"/>
       <Tarjeta title1='Guardianes de la Galaxia' src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/guardianes-de-la-galaxia-1525787553.jpg?crop=1xw:1xh;center,top&resize=480:*"/>
